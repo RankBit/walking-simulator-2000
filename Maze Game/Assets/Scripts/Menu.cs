@@ -51,6 +51,11 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("Maze 1");
     }
 
+    public void LoadManinMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+
     public void QuitGame()
     {
         Application.Quit();

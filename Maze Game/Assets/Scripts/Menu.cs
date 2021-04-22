@@ -11,7 +11,7 @@ public class Menu : MonoBehaviour
 
     public GameObject pauseMenuUI;
 
-    public GameObject characterSwitch;
+    //public GameObject characterSwitch;
 
     public AudioMixer audioMixer;
 
@@ -34,7 +34,7 @@ public class Menu : MonoBehaviour
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
-        characterSwitch.SetActive(true);
+        //characterSwitch.SetActive(true);
         GameIsPaused = false;
     }
 
@@ -42,7 +42,7 @@ public class Menu : MonoBehaviour
     {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
-        characterSwitch.SetActive(false);
+        //characterSwitch.SetActive(false);
         GameIsPaused = true;
     }
 
